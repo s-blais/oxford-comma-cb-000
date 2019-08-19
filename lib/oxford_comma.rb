@@ -5,6 +5,7 @@ def oxford_comma(array)
     string_output = ("and #{item}")
     array.each do |item|
       string_output.prepend ("#{item}, ")
+    end
   elsif array.length == 2
     string_output = "#{array[1]} and #{array[2]}"
   else string_output = "#{array[1]}"
