@@ -3,7 +3,7 @@ def oxford_comma(array)
   if array.length >=3
     item = array.pop
     string_output = ("and #{item}")
-    array.each do |item|
+    array.reverse.each do |item|
       string_output.prepend ("#{item}, ")
     end
   elsif array.length == 2
