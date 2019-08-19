@@ -7,7 +7,7 @@ def oxford_comma(array)
       string_output.prepend ("#{item}, ")
     end
   elsif array.length == 2
-    string_output = "#{array[1]} and #{array[2]}"
+    string_output = "#{array[0]} and #{array[1]}"
   else string_output = "#{array[0]}"
   end
   string_output
