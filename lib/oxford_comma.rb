@@ -8,7 +8,7 @@ def oxford_comma(array)
     end
   elsif array.length == 2
     string_output = "#{array[1]} and #{array[2]}"
-  else string_output = "#{array[1]}"
+  else string_output = "#{array[0]}"
   end
   string_output
 end
