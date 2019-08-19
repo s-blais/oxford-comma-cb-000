@@ -1,7 +1,5 @@
 def oxford_comma(array)
-  #string_output = ""
   if array.length >=3
-    #item = array.pop
     string_output = ("and #{array.pop}")
     array.reverse.each do |item|
       string_output.prepend ("#{item}, ")
